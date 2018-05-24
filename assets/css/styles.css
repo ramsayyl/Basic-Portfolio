@@ -1,0 +1,153 @@
+body {
+  width: 100%;
+  margin: auto;
+  background-color: #eee;
+}
+
+.main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  z-index: 5;
+}
+
+.name {
+  float: left;
+  font-family: Georgia;
+  font-size: 18px;
+  background-color: #4aaaa5;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #4aaaa5;
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  padding-top: 35px;
+  font-size: 16px;
+}
+
+ul {
+  margin-right: 15px;
+}
+
+.nav {
+  float: right;
+}
+
+.content {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding: 10px 10px;
+  background-color: #fff;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+#portfolio .content {
+  height: auto;
+}
+
+#contact .content {
+  height: auto;
+}
+
+.about-heading {
+  color: #4aaaa5;
+  font-family: Georgia;
+  margin-left: 15px;
+}
+
+.about-text {
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: monospace;
+  color: #777;
+}
+
+
+.headshot-image {
+  float: left;
+  height: 180px;
+  width: 200px;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+#portfolio .thumbnail {
+  width: 100%;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  transition: all .2s ease-in-out;
+}
+
+#portfolio .thumbnail:hover {
+  transform:  scale(1.2);
+}
+
+#portfolio .portfolio-title {
+  color: #777;
+  font-family: Georgia;
+  text-align: center;
+}
+
+#portfolio .p-text {
+  color: #777;
+  text-align: center;
+  font-family: monospace;
+}
+
+#contact .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#contact .submit-button {
+  background-color: #4aaaa5;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #666;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.footer-text {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
