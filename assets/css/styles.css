@@ -22,7 +22,7 @@ body {
 
 .name {
   float: left;
-  font-family: Georgia;
+  font-family: monospace;
   font-size: 18px;
   background-color: #4aaaa5;
   color: #fff;
@@ -44,7 +44,6 @@ li {
   float: left;
   margin-left: 15px;
   padding-top: 35px;
-  font-size: 16px;
 }
 
 ul {
@@ -60,7 +59,7 @@ ul {
   margin-bottom: 120px;
   padding: 10px 10px;
   background-color: #fff;
-  height: auto;
+  height: 400px;
   border-style: solid;
   border-width: 1px;
   border-color: #ddd;
@@ -76,7 +75,7 @@ ul {
 
 .about-heading {
   color: #4aaaa5;
-  font-family: Georgia;
+  font-family: monospace;
   margin-left: 15px;
 }
 
@@ -84,7 +83,6 @@ ul {
   letter-spacing: 2px;
   line-height: 25px;
   font-size: 16px;
-  font-family: monospace;
   color: #777;
 }
 
@@ -94,7 +92,6 @@ ul {
   height: 180px;
   width: 200px;
   margin: 5px 10px;
-  border-radius: 50%;
 }
 
 #portfolio .thumbnail {
@@ -109,27 +106,15 @@ ul {
   transform:  scale(1.2);
 }
 
-#portfolio .portfolio-title {
-  color: #777;
-  font-family: Georgia;
-  text-align: center;
-}
-
-#portfolio .p-text {
-  color: #777;
-  text-align: center;
-  font-family: monospace;
-}
-
 #contact .input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 #contact .submit-button {
@@ -138,6 +123,8 @@ ul {
   padding: 5px 10px;
   margin-left: 10px;
 }
+
+
 
 .footer {
   background-color: #666;
